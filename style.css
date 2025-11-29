@@ -48,6 +48,34 @@ body {
     padding-bottom: 3px;
 }
 
+/* AUTH AREA */
+.auth-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+}
+
+.small-btn {
+    border: 1px solid #0071e3;
+    border-radius: 18px;
+    padding: 5px 12px;
+    background: white;
+    color: #0071e3;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: 0.2s;
+}
+
+.small-btn:hover {
+    background: #0071e3;
+    color: white;
+}
+
+#user-info {
+    color: #6e6e73;
+}
+
 /* HERO */
 .hero {
     text-align: center;
