@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STA Study Hub</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
 
+    <!-- NAVBAR -->
     <nav class="navbar">
-    <div class="logo">STA Study Hub</div>
-    <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="courses.html">Courses</a></li>
-        <li><a href="teachers.html">Teachers</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
+        <div class="logo">STA Study Hub</div>
 
-    <!-- Auth area -->
-    <div class="auth-area">
-        <span id="user-info"></span>
-        <button id="login-btn" class="small-btn">Sign in with Google</button>
-        <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
-    </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+        <!-- AUTH AREA -->
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
 
     <!-- HERO -->
     <section class="hero">
@@ -48,7 +50,7 @@
         </div>
     </section>
 
-    <!-- SPECIAL EXAMPLE -->
+    <!-- SPECIAL EXAMPLE SECTION -->
     <section class="example-section">
         <h2>Chemistry 12 — Simplified</h2>
         <p>No more digging through Provincial exam PDFs. We organize questions by unit and topic.</p>
@@ -56,12 +58,14 @@
         <div class="example-grid">
             <a href="chem12.html" class="example-card link-card">
                 <h3>Open Chem 12 Page</h3>
-                <p>See unit breakdowns, question banks, and mentor tips.</p>
+                <p>Unit breakdowns, question banks, and mentor explanations.</p>
             </a>
+
             <div class="example-card">
                 <h3>Equilibrium</h3>
                 <p>Past Provincial questions + detailed solutions.</p>
             </div>
+
             <div class="example-card">
                 <h3>Kinetics</h3>
                 <p>Graphs, calculation types, and common patterns.</p>
@@ -73,6 +77,17 @@
     <footer>
         <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
     </footer>
+
+
+    <!-- FIREBASE SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+
+    <!-- AUTH LOGIC -->
+    <script src="auth.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="script.js"></script>
 
 </body>
 </html>
