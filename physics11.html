@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics 11 | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Physics 11</h1>
+        <p>Introductory kinematics, dynamics, energy, and waves with example-based practice.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Unit Overview</h2>
+            <ul class="unit-list">
+                <li><strong>Unit 1 – Kinematics</strong><br>Position-time and velocity-time graphs, constant acceleration, motion in one dimension.</li>
+                <li><strong>Unit 2 – Dynamics</strong><br>Forces, free-body diagrams, Newton’s laws, friction.</li>
+                <li><strong>Unit 3 – Energy & Work</strong><br>Kinetic and potential energy, work, power, conservation of energy.</li>
+                <li><strong>Unit 4 – Momentum</strong><br>Impulse, conservation of momentum, collisions.</li>
+                <li><strong>Unit 5 – Waves & Optics (if covered)</strong><br>Wave properties, reflection, refraction, lenses.</li>
+            </ul>
+
+            <h2>Study Strategy (Mentor Tips)</h2>
+            <p class="muted">How past high-scoring students approached Physics 11.</p>
+            <ol>
+                <li>Draw diagrams for almost every problem, even simple ones.</li>
+                <li>Write formulas with units and check if your final answer’s units make sense.</li>
+                <li>Redo quiz/test questions you missed and write a one-sentence explanation of the concept behind each.</li>
+            </ol>
+        </div>
+
+        <div class="column">
+            <h2>Practice Sets & Resources</h2>
+
+            <div class="resource-card">
+                <h3>Kinematics – Graphs & Equations</h3>
+                <p>Practice moving between verbal descriptions, graphs, and equations of motion.</p>
+                <p class="muted">Future: link to worksheet / PDF here.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Dynamics – Forces & Free-Body Diagrams</h3>
+                <p>Problems on tension, normal force, friction, and combined forces.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Energy Conservation Problems</h3>
+                <p>Rollercoaster-style questions mixing potential and kinetic energy.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Momentum & Collisions</h3>
+                <p>1D collision questions with before/after diagrams and vector directions.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Waves & Basic Optics</h3>
+                <p>Conceptual and numeric problems on frequency, wavelength, and simple lens setups.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <!-- Firebase + auth -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
