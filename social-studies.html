@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Studies | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Social Studies Department</h1>
+        <p>Courses that build understanding of history, geography, civics, economics, and global issues.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Course Areas</h2>
+            <ul class="unit-list">
+                <li>Junior Social Studies (8–10) foundations.</li>
+                <li>20th Century World History, Law, and Comparative Cultures (as offered).</li>
+                <li>Human Geography, Social Justice, and related senior electives.</li>
+            </ul>
+            <p class="muted">
+                The goal is to form informed, active citizens who can think critically about past and present events.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Study Support</h2>
+            <div class="resource-card">
+                <h3>Timeline & Case Study Templates</h3>
+                <p>Structures for organizing events, causes, and consequences.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Source Analysis Tools</h3>
+                <p>Guides for OPVL/source analysis, thesis statements, and evidence use.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Exam-Style Question Practice</h3>
+                <p>Question stems for paragraph responses, essays, and document-based questions.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
