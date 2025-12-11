@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Languages | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Modern Languages</h1>
+        <p>Developing communication skills and cultural understanding through language learning.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Focus Areas</h2>
+            <ul class="unit-list">
+                <li>Junior-level language acquisition: basic vocabulary, grammar, and conversation.</li>
+                <li>Intermediate reading, listening, and writing tasks.</li>
+                <li>Senior courses with more complex texts, culture, and oral proficiency work.</li>
+            </ul>
+            <p class="muted">
+                Strong language skills support travel, international study, and many post-secondary programs.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Study Support</h2>
+            <div class="resource-card">
+                <h3>Verb & Grammar Reference Sheets</h3>
+                <p>Conjugation tables and key structures for quick review before quizzes and tests.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Vocabulary Lists & Themes</h3>
+                <p>Grouped vocab by theme (family, school, food, travel) with sample sentences.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Speaking Prompts</h3>
+                <p>Question sets to practice partner or oral exam conversations.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
