@@ -16,6 +16,12 @@
             <li><a href="teachers.html">Teachers</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
+
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
     </nav>
 
     <section class="page-header">
@@ -30,28 +36,33 @@
             <span class="tag">Featured</span>
         </a>
 
-        <div class="course-card">
+        <a href="precalc12.html" class="course-card">
             <h2>Pre-Calculus 12</h2>
-            <p>Coming soon: functions, trig, combinatorics, and exam prep sets.</p>
-            <span class="tag tag-soon">Planned</span>
-        </div>
+            <p>Functions, trig, combinatorics, and exam-style mixed sets.</p>
+            <span class="tag tag-soon">Live</span>
+        </a>
 
-        <div class="course-card">
+        <a href="physics11.html" class="course-card">
             <h2>Physics 11</h2>
-            <p>Concept explanations, formula sheets, and problem sets.</p>
-            <span class="tag tag-soon">Planned</span>
-        </div>
+            <p>Foundational kinematics, dynamics, and energy resources.</p>
+            <span class="tag tag-soon">Live</span>
+        </a>
 
-        <div class="course-card">
+        <a href="physics12.html" class="course-card">
             <h2>Physics 12</h2>
-            <p>Electricity, energy, momentum, and exam-style questions.</p>
-            <span class="tag tag-soon">Planned</span>
-        </div>
+            <p>Advanced forces, energy, momentum, and circuits.</p>
+            <span class="tag tag-soon">Live</span>
+        </a>
     </section>
 
     <footer>
         <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
     </footer>
 
+    <!-- Firebase + auth -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
