@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Calculus 12 | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Pre-Calculus 12</h1>
+        <p>Functions, graphs, algebra, and exam-style practice organized by unit.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Unit Overview</h2>
+            <ul class="unit-list">
+                <li><strong>Unit 1 – Polynomial Functions</strong><br>End behaviour, graphing, inequalities, and factoring review.</li>
+                <li><strong>Unit 2 – Rational Functions</strong><br>Asymptotes, restrictions, and graph analysis.</li>
+                <li><strong>Unit 3 – Exponential & Logarithmic Functions</strong><br>Growth/decay, laws of logs, solving equations.</li>
+                <li><strong>Unit 4 – Trigonometry</strong><br>Trig equations, identities, graphs, and applications.</li>
+                <li><strong>Unit 5 – Combinatorics & Binomial Theorem</strong><br>Permutations, combinations, Pascal’s triangle, binomial expansion.</li>
+            </ul>
+
+            <h2>Study Strategy (Mentor Tips)</h2>
+            <p class="muted">From students who scored 95%+ in Pre-Calc 12.</p>
+            <ol>
+                <li>Summarize each unit on one page: key formulas, graphs, and “typical question types”.</li>
+                <li>Do mixed review sets instead of only section-by-section questions near test time.</li>
+                <li>When you get a question wrong, write down what kind of mistake it was (algebra, concept, graph reading, etc.).</li>
+            </ol>
+        </div>
+
+        <div class="column">
+            <h2>Practice Sets & Resources</h2>
+
+            <div class="resource-card">
+                <h3>Polynomial Functions – Mixed Practice</h3>
+                <p>Questions on factoring, inequalities, and sketching polynomial graphs.</p>
+                <p class="muted">Future: link to PDF / Google Doc here.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Rational Functions – Asymptote Pack</h3>
+                <p>Focus on vertical, horizontal, and oblique asymptotes with graph analysis.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Exponential & Log Equations</h3>
+                <p>Equation-solving drills with log laws and word problems.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Trig Identities & Equations</h3>
+                <p>Practice proving identities and solving trig equations in given intervals.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Combinatorics & Binomial Theorem</h3>
+                <p>Questions on nCr, counting methods, and simple binomial expansions.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <!-- Firebase + auth -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
