@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADST | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>ADST — Applied Design, Skills & Technologies</h1>
+        <p>Business, technology, and applied skills courses that connect learning to real-world problem solving.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Focus Areas</h2>
+            <ul class="unit-list">
+                <li><strong>Business Education</strong> – accounting, entrepreneurship, marketing.</li>
+                <li><strong>Information & Communications Technology</strong> – computing, coding, digital literacy.</li>
+                <li><strong>Applied Design Projects</strong> – hands-on building, design thinking, and product development.</li>
+            </ul>
+            <p class="muted">
+                This department supports students who are interested in commerce, technology, and practical design skills.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Sample Supports</h2>
+            <div class="resource-card">
+                <h3>Project Planning Templates</h3>
+                <p>Checklists and planning sheets for ADST design projects and presentations.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Business Case Study Questions</h3>
+                <p>Guiding questions to help analyze case studies and develop business proposals.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Digital Skills Practice</h3>
+                <p>Suggested tasks for spreadsheets, slides, and basic coding exercises.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
