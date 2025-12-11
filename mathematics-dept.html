@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematics | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Mathematics Department</h1>
+        <p>Multiple pathways in Foundations, Pre-Calculus, Workplace Math, and Calculus to support different post-secondary goals.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Course Pathways</h2>
+            <ul class="unit-list">
+                <li>Mathematics 8–9 and Accelerated Math 8–9.</li>
+                <li>Foundations & Pre-Calculus 10.</li>
+                <li>Workplace Math 10 & 11; Foundations of Math 11 & 12.</li>
+                <li>Pre-Calculus 11 & 12, and Calculus 12.</li>
+            </ul>
+            <p class="muted">
+                Students can choose pathways aligned with arts, sciences, business, engineering, or workplace preparation.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Study Support</h2>
+            <div class="resource-card">
+                <h3>Formula & Concept Sheets</h3>
+                <p>Core identities, function properties, and key algebra laws organized by course.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Mixed Practice Sets</h3>
+                <p>Question sets that blend topics the same way unit tests and final exams do.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Calculator & Graphing Tips</h3>
+                <p>Short guides for using graphing calculators effectively on assessments.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
