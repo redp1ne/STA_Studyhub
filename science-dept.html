@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Science Department</h1>
+        <p>From junior science foundations to senior biology, chemistry, physics, and more.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Course Pathways</h2>
+            <ul class="unit-list">
+                <li>Science 8–10 (general science foundations).</li>
+                <li>Biology 11 & 12.</li>
+                <li>Chemistry 11 & 12.</li>
+                <li>Physics 11 & 12.</li>
+                <li>Additional senior science options as offered.</li>
+            </ul>
+            <p class="muted">
+                Science courses support students interested in health sciences, engineering, research, and technology.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Study Support</h2>
+            <div class="resource-card">
+                <h3>Concept Maps</h3>
+                <p>Templates to connect big ideas (energy, matter, forces, ecosystems) across units.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Lab Skills Checklists</h3>
+                <p>Lists of key lab skills: graphing, significant figures, uncertainty, and safety.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Practice Question Banks</h3>
+                <p>Suggested provincial-style and teacher-style questions organized by topic.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
