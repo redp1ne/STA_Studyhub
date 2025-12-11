@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics 12 | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Physics 12</h1>
+        <p>Advanced forces, energy, momentum, and electricity preparation for tests and final exams.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Unit Overview</h2>
+            <ul class="unit-list">
+                <li><strong>Unit 1 – Vectors & 2D Kinematics</strong><br>Vector components, relative motion, and projectiles.</li>
+                <li><strong>Unit 2 – Dynamics in 2D</strong><br>Inclined planes, circular motion, multi-force systems.</li>
+                <li><strong>Unit 3 – Work, Energy & Power</strong><br>Advanced conservation problems and non-conservative forces.</li>
+                <li><strong>Unit 4 – Momentum & Collisions</strong><br>2D momentum, explosions, and impulse.</li>
+                <li><strong>Unit 5 – Electricity</strong><br>Electric fields, potential, circuits (series/parallel), and Ohm’s law.</li>
+            </ul>
+
+            <h2>Study Strategy (Mentor Tips)</h2>
+            <p class="muted">From students who took Physics 12 and scored 90–95%+.</p>
+            <ol>
+                <li>Start every problem by listing knowns/unknowns and drawing a clear diagram.</li>
+                <li>Practice a mix of conceptual questions and heavy-calculation questions.</li>
+                <li>Time yourself on small sets of 3–5 problems to simulate test pressure.</li>
+            </ol>
+        </div>
+
+        <div class="column">
+            <h2>Practice Sets & Resources</h2>
+
+            <div class="resource-card">
+                <h3>2D Kinematics & Vectors Set</h3>
+                <p>Projectile and relative velocity questions with step-by-step solutions.</p>
+                <p class="muted">Future: upload question bank / solution key here.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Dynamics – Circular Motion & Inclines</h3>
+                <p>Problems involving centripetal force, banking, and friction on ramps.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Energy & Power – Mixed Problems</h3>
+                <p>Elevators, pulleys, and systems with non-conservative work (friction, engines).</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Momentum in 1D & 2D</h3>
+                <p>Collision and explosion scenarios, including vector diagrams in 2D.</p>
+            </div>
+
+            <div class="resource-card">
+                <h3>Electric Circuits Practice</h3>
+                <p>Series/parallel circuits, equivalent resistance, current and voltage calculations.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <!-- Firebase + auth -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
