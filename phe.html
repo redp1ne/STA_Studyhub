@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical & Health Education | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>Physical & Health Education</h1>
+        <p>Courses that promote physical literacy, fitness, and lifelong healthy living.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Focus Areas</h2>
+            <ul class="unit-list">
+                <li>Movement skills and team sports.</li>
+                <li>Personal fitness and training principles.</li>
+                <li>Health topics: nutrition, mental health, risk reduction.</li>
+                <li>Specialized academies and athletic enrichment where available.</li>
+            </ul>
+            <p class="muted">
+                PHE supports both physical well-being and understanding of health-related decision-making.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Study & Reflection Support</h2>
+            <div class="resource-card">
+                <h3>Fitness Planning Templates</h3>
+                <p>Goal-setting sheets for workout plans and fitness reflections.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Health Topic Notes</h3>
+                <p>Guided note structures for units on nutrition, stress, and healthy lifestyles.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Reflection Questions</h3>
+                <p>Prompts to help complete written PHE reflections and self-assessments.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
