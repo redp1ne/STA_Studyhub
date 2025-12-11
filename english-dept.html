@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English | STA Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">STA Study Hub</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html" class="active">Courses</a></li>
+            <li><a href="teachers.html">Teachers</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="auth-area">
+            <span id="user-info"></span>
+            <button id="login-btn" class="small-btn">Sign in with Google</button>
+            <button id="logout-btn" class="small-btn" style="display:none;">Sign out</button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1>English Department</h1>
+        <p>Reading, writing, speaking, and critical thinking from junior ELA to senior English Studies.</p>
+    </section>
+
+    <section class="two-column">
+        <div class="column">
+            <h2>Course Pathways</h2>
+            <ul class="unit-list">
+                <li>English Language Arts 8–9 (including enriched options).</li>
+                <li>Composition 10 & Creative Writing 10.</li>
+                <li>First Peoples’ Composition 11 and other senior options.</li>
+                <li>English Studies 12 & enriched English Studies 12.</li>
+            </ul>
+            <p class="muted">
+                Courses focus on literary analysis, composition, creative expression, and language skills needed for university-level work.
+            </p>
+        </div>
+
+        <div class="column">
+            <h2>Study Support</h2>
+            <div class="resource-card">
+                <h3>Essay Planning Templates</h3>
+                <p>Outlines for literary paragraphs, synthesis essays, and comparative responses.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Literary Terms Packs</h3>
+                <p>Lists of key terms for poetry, fiction, and drama with practice questions.</p>
+            </div>
+            <div class="resource-card">
+                <h3>Reading Response Starters</h3>
+                <p>Sentence stems to help structure personal and critical response assignments.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 STA Study Hub — Student Built, Student Powered.</p>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
